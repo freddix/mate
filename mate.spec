@@ -1,7 +1,7 @@
 Summary:	GNOME desktop
 Name:		mate
 Version:	1.6
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Applications
 Requires:	gvfs
@@ -21,6 +21,7 @@ Requires:	mate-applet-stickynotes
 Requires:	mate-applet-trash
 Requires:	mate-applet-weather
 Requires:	mate-backgrounds-desktop
+Requires:	mate-calc
 Requires:	mate-control-center
 Requires:	mate-desktop
 Requires:	mate-document-viewer
@@ -44,7 +45,7 @@ Requires:	mate-settings-daemon
 Requires:	mate-terminal
 Requires:	mate-text-editor
 Requires:	mate-utils-dictionary
-Requires:	mate-utils-mate-disk-usage-analyzer
+Requires:	mate-utils-disk-usage-analyzer
 Requires:	mate-utils-screenshot
 Requires:	mate-utils-search-tool
 Requires:	mate-window-manager
