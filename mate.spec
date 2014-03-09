@@ -1,6 +1,6 @@
 Summary:	GNOME desktop
 Name:		mate
-Version:	1.6
+Version:	1.8
 Release:	2
 License:	GPL v2
 Group:		X11/Applications
@@ -9,46 +9,52 @@ Requires:	gvfs-archive
 Requires:	gvfs-cdio
 Requires:	gvfs-fuse
 Requires:	gvfs-mtp
-Requires:	libmatekbd-runtime
-Requires:	libmateweather-data
-Requires:	mate-applet-battstat
-Requires:	mate-applet-charpicker
-Requires:	mate-applet-cpufreq
-Requires:	mate-applet-drivemount
-Requires:	mate-applet-geyes
-Requires:	mate-applet-multiload
-Requires:	mate-applet-stickynotes
-Requires:	mate-applet-trash
-Requires:	mate-applet-weather
-Requires:	mate-backgrounds-desktop
-Requires:	mate-calc
-Requires:	mate-control-center
-Requires:	mate-desktop
-Requires:	mate-document-viewer
-Requires:	mate-file-archiver
-Requires:	mate-file-manager
-Requires:	mate-file-manager-extension-document-viewer
-Requires:	mate-file-manager-extension-engrampa
-Requires:	mate-file-manager-extension-image-converter
-Requires:	mate-image-viewer
-Requires:	mate-media-volume-control
-Requires:	mate-media-volume-control-applet
-Requires:	mate-menus
-Requires:	mate-notification-daemon
-Requires:	mate-panel
-Requires:	mate-panel-applet-pm-brightness
-Requires:	mate-panel-applet-pm-inhibit
-Requires:	mate-polkit
-Requires:	mate-power-manager
-Requires:	mate-session-manager
-Requires:	mate-settings-daemon
-Requires:	mate-terminal
-Requires:	mate-text-editor
-Requires:	mate-utils-dictionary
-Requires:	mate-utils-disk-usage-analyzer
-Requires:	mate-utils-screenshot
-Requires:	mate-utils-search-tool
-Requires:	mate-window-manager
+#
+Requires:	atril >= %{version}
+Requires:	caja >= %{version}
+Requires:	caja-extension-document-viewer >= %{version}
+Requires:	caja-extension-engrampa >= %{version}
+Requires:	caja-extension-gksu >= %{version}
+Requires:	caja-extension-image-converter >= %{version}
+Requires:	caja-extension-open-terminal >= %{version}
+Requires:	caja-extension-sendto >= %{version}
+Requires:	caja-extension-share >= %{version}
+Requires:	engrampa >= %{version}
+Requires:	eom >= %{version}
+Requires:	libmatekbd-runtime >= %{version}
+Requires:	libmateweather-data >= %{version}
+Requires:	marco >= %{version}
+Requires:	mate-applet-battstat >= %{version}
+Requires:	mate-applet-charpicker >= %{version}
+Requires:	mate-applet-cpufreq  >= %{version}
+Requires:	mate-applet-drivemount >= %{version}
+Requires:	mate-applet-geyes >= %{version}
+Requires:	mate-applet-invest >= %{version}
+Requires:	mate-applet-multiload >= %{version}
+Requires:	mate-applet-stickynotes >= %{version}
+Requires:	mate-applet-trash >= %{version}
+Requires:	mate-applet-weather >= %{version}
+Requires:	mate-backgrounds-desktop >= %{version}
+Requires:	mate-calc >= %{version}
+Requires:	mate-control-center >= %{version}
+Requires:	mate-desktop >= %{version}
+Requires:	mate-media-volume-control >= %{version}
+Requires:	mate-media-volume-control-applet >= %{version}
+Requires:	mate-menus >= %{version}
+Requires:	mate-notification-daemon >= %{version}
+Requires:	mate-panel >= %{version}
+Requires:	mate-panel-applet-pm-brightness >= %{version}
+Requires:	mate-panel-applet-pm-inhibit >= %{version}
+Requires:	mate-polkit >= %{version}
+Requires:	mate-power-manager >= %{version}
+Requires:	mate-session-manager >= %{version}
+Requires:	mate-settings-daemon >= %{version}
+Requires:	mate-terminal >= %{version}
+Requires:	mate-utils-dictionary >= %{version}
+Requires:	mate-utils-disk-usage-analyzer >= %{version}
+Requires:	mate-utils-screenshot >= %{version}
+Requires:	mate-utils-search-tool >= %{version}
+Requires:	pluma >= %{version}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
