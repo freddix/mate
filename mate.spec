@@ -1,9 +1,10 @@
 Summary:	GNOME desktop
 Name:		mate
 Version:	1.8
-Release:	2
+Release:	4
 License:	GPL v2
 Group:		X11/Applications
+# for caja
 Requires:	gvfs
 Requires:	gvfs-archive
 Requires:	gvfs-cdio
@@ -38,6 +39,7 @@ Requires:	mate-backgrounds-desktop >= %{version}
 Requires:	mate-calc >= %{version}
 Requires:	mate-control-center >= %{version}
 Requires:	mate-desktop >= %{version}
+Requires:	mate-dialogs >= %{version}
 Requires:	mate-media-volume-control >= %{version}
 Requires:	mate-media-volume-control-applet >= %{version}
 Requires:	mate-menus >= %{version}
@@ -47,6 +49,7 @@ Requires:	mate-panel-applet-pm-brightness >= %{version}
 Requires:	mate-panel-applet-pm-inhibit >= %{version}
 Requires:	mate-polkit >= %{version}
 Requires:	mate-power-manager >= %{version}
+Requires:	mate-screensaver >= %{version}
 Requires:	mate-session-manager >= %{version}
 Requires:	mate-settings-daemon >= %{version}
 Requires:	mate-terminal >= %{version}
@@ -55,6 +58,9 @@ Requires:	mate-utils-disk-usage-analyzer >= %{version}
 Requires:	mate-utils-screenshot >= %{version}
 Requires:	mate-utils-search-tool >= %{version}
 Requires:	pluma >= %{version}
+# external
+Requires:	gnome-keyring
+#
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
