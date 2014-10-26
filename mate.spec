@@ -1,7 +1,7 @@
-Summary:	GNOME desktop
+Summary:	MATE Desktop Environment
 Name:		mate
 Version:	1.8
-Release:	4
+Release:	5
 License:	GPL v2
 Group:		X11/Applications
 # for caja
